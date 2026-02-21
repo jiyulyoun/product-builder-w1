@@ -15,6 +15,31 @@
         <h1>Ready for some Lotto Luck?</h1>
         <button id="generate">✨ Generate Winning Numbers</button>
         <div id="numbers" class="number-container"></div>
+        <div class="divider" aria-hidden="true"></div>
+        <section class="partner-section" aria-labelledby="partner-heading">
+            <h2 id="partner-heading">Partner with us</h2>
+            <p class="partner-subtitle">Tell us about your proposal and we'll get back to you.</p>
+            <form class="partner-form" action="https://formspree.io/f/xgolnavv" method="POST">
+                <label class="partner-field">
+                    <span>Name</span>
+                    <input type="text" name="name" autocomplete="name" required>
+                </label>
+                <label class="partner-field">
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email" required>
+                </label>
+                <label class="partner-field">
+                    <span>Company</span>
+                    <input type="text" name="company" autocomplete="organization">
+                </label>
+                <label class="partner-field">
+                    <span>What are you looking to build together?</span>
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off">
+                <button class="partner-submit" type="submit">Send partnership inquiry</button>
+            </form>
+        </section>
     </div>
     <script src="main.js"></script>
 </body>
