@@ -212,3 +212,12 @@ h1 {
     gap: 1.5rem;
     min-height: 70px; /* Prevent layout shift */
 }
+
+.ad-container {
+    margin: 1.5rem 0 0.5rem;
+    min-height: 120px;
+}
+
+.ad-slot {
+    min-height: 120px;
+}
